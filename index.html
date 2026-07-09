@@ -359,13 +359,13 @@
   // =========================
   // PIX NATIVO NO CHECKOUT
   // Gerado 100% no navegador, sem API/backend.
-  // Descricao fixa (campo 02) travada como "PORTO HOLDING" -
+  // Descricao fixa (campo 02) travada como "TETRA EDUCACAO" -
   // nunca o nome do produto/curso.
   // =========================
   const PIX_KEY = 'dbd93365-cb7a-483e-b79a-cfdc5a946794';
-  const PIX_MERCHANT_NAME = 'PORTO HOLDING';
+  const PIX_MERCHANT_NAME = 'TETRA EDUCACAO';
   const PIX_MERCHANT_CITY = 'SAO PAULO';
-  const PIX_DESCRICAO = 'PORTO HOLDING';
+  const PIX_DESCRICAO = 'TETRA EDUCACAO';
 
   function emvField(id, value) {
     value = String(value || '');
@@ -498,7 +498,7 @@
           <div style="font-size:10px;font-weight:700;color:#6c5ce7;margin-bottom:6px;letter-spacing:.5px;text-transform:uppercase;">Codigo Pix Copia e Cola</div>
           <div id="pixCode" style="font-size:9px;color:#333;word-break:break-all;line-height:1.6;font-family:monospace;background:#fff;border-radius:6px;padding:8px;border:1px solid #ddd;">${payload}</div>
           <div style="margin-top:8px;font-size:9.5px;color:#666;">
-            <b>Beneficiario:</b> PORTO HOLDING<br/>
+            <b>Beneficiario:</b> TETRA EDUCACAO<br/>
             <b>Tipo de chave:</b> Chave aleatoria<br/>
             <b>Valor:</b> R$ ${getValorTotal().toFixed(2).replace('.', ',')}
           </div>
